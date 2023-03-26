@@ -20,6 +20,7 @@ async function authentication(req, res, next) {
       id: user.id,
       role: user.role,
     }
+
     next()
   } catch (error) {
     next(error)

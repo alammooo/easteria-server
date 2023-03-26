@@ -22,10 +22,10 @@ router.post("/login", UserController.userLogin)
 router.get("/pub/foods", CustomerController.findFood)
 router.get("/pub/foods/:foodId", CustomerController.findFoodById)
 router.get("/categories", UserController.findAllCategories)
-router.get("/pub/bookmarks", customerConsent, CustomerController.findBookmark)
 
 router.use(authentication)
 
+router.get("/pub/bookmarks", customerConsent, CustomerController.findBookmark)
 router.post(
   "/pub/bookmarks/:foodId",
   customerConsent,

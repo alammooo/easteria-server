@@ -38,7 +38,6 @@ beforeAll(async () => {
       role: "Admin",
     },
   })
-console.log(admin, "INI ADMINISTRATOR")
   admin_token = generateToken({ id: admin.id })
 
   const bookmarks = {
@@ -54,7 +53,6 @@ console.log(admin, "INI ADMINISTRATOR")
       bookmarks,
       {}
     )
-    console.log(bookmarkList ,"INI BOOKMARK LIST")
   } catch (error) {
     console.log(error)
   }
@@ -131,13 +129,16 @@ describe("API Customer Bookmarks", function () {
     })
 
     it("Succecssfully add Food with id 1 to User's Bookmark and response 201", async function () {
-      const res = await request(app).post("/pub/bookmarks/1").set("access_token", access_token)
+      const res = await request(app)
+        .post("/pub/bookmarks/1")
+        .set("access_token", access_token)
 
       expect(res.status).toBe(201)
       expect(res.body).toBeInstanceOf(Object)
       expect(res.body).toHaveProperty("Bookmark")
       const firstFood = await Food.findByPk(1)
-      expect(res.body).toHaveProperty("Bookmark",
+      expect(res.body).toHaveProperty(
+        "Bookmark",
         `Food with name ${firstFood.name} successfully added to bookmark`
       )
     })
@@ -174,7 +175,7 @@ describe("API Customer Bookmarks", function () {
       const res = await request(app)
         .get("/pub/bookmarks")
         .set("access_token", admin_token)
-        
+
       expect(res.status).toBe(403)
       expect(res.body).toBeInstanceOf(Object)
       expect(res.body).toHaveProperty("message", "Not Allowed!")

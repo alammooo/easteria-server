@@ -68,9 +68,7 @@ async function customerConsent(req, res, next) {
     if (req.user.role !== "Customer") {
       throw { name: "Forbidden" }
     }
-    else{
-      next()
-    }
+    next()
   } catch (error) {
     next(error)
   }

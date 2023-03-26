@@ -41,7 +41,6 @@ class UserController {
   // }
 
   static async registerAdmin(req, res, next) {
-    // console.log(req.body)
     try {
       const { 
         username = "NewAdmin",
@@ -59,7 +58,6 @@ class UserController {
         phoneNumber,
         address,
       })
-      // console.log(req.body)
 
       res.status(201).json({
         message: `User ${createUser.email} successfully created`,
@@ -117,10 +115,8 @@ class UserController {
       const { id } = req.user
       const { name } = req.body
       const category = await Category.create({ name })
-      console.log(category, "ini dari create category")
       if (category === null) throw { name: `Data not found` }
       const user = await User.findByPk(id)
-      // console.log(category)
       res.status(200).json({
         message: `Category "${category.name}" successfully created`,
         category,
@@ -140,14 +136,12 @@ class UserController {
     try {
       const { categoryId } = req.params
       const categoryToDelete = await Category.findByPk(categoryId)
-      // console.log(categoryToDelete)
       const findFoodWithCategory = await Food.findAll({
         where: {
           categoryId,
         },
       })
 
-      // console.log(findFoodWithCategory)
       if (categoryToDelete === null) throw { name: `Data not found` }
       let deleteCategoryById
       if (findFoodWithCategory === null) {
@@ -165,14 +159,12 @@ class UserController {
       res.status(200).json({
         message: `Category with name "${categoryToDelete.name}" successfully deleted`,
       })
-      // console.log(deleteCategoryById)
     } catch (error) {
       next(error)
     }
   }
 
   static async findAllFoods(req, res, next) {
-    console.log(req.headers, "FINDFOOD")
     try {
       const foodLists = await Food.findAll({
         include: [
@@ -197,7 +189,6 @@ class UserController {
     try {
       const { name, description, price, imgUrl, categoryId } = req.body
       const { id } = req.user
-      // console.log(req.body)
       const foods = await Food.create({
         name,
         description,
@@ -206,7 +197,6 @@ class UserController {
         authorId: req.user.id,
         categoryId,
       })
-      // console.log(foods.dataValues.id)
       const user = await User.findByPk(id)
       await History.create({
         title: foods.name,
@@ -222,7 +212,6 @@ class UserController {
   static async findFoodById(req, res, next) {
     try {
       const { foodId } = req.params
-      // console.log(req.params)
       const findFoodById = await Food.findByPk(foodId, {
         include: [
           {
@@ -257,7 +246,6 @@ class UserController {
 
       const id = foodId
       const deleteById = await Food.destroy({ where: { id } })
-      // console.log(deleteById, "SAMPEEE DELETE")
       if (deleteById === 0) throw { name: `Data not found` }
       res.status(200).json({
         message: `Food with name "${findFoodById.name}" has been removed`,

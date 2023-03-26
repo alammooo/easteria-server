@@ -45,10 +45,10 @@ class CustomerController {
       if (!validPassword) throw { name: "invalid Login" }
       const payload = {
         id: user.id,
+        role: user.role,
       }
 
       const access_token = generateToken(payload)
-
       res.status(200).json({ access_token, message: `Logged in as : ${email}` })
     } catch (error) {
       next(error)
@@ -121,7 +121,6 @@ class CustomerController {
 
       const { count, rows } = await Food.findAndCountAll(options)
 
-
       res.status(200).json({ totalFoods: count, listOfFoods: rows })
     } catch (error) {
       next(error)
@@ -154,7 +153,6 @@ class CustomerController {
         food: findFoodById,
       })
     } catch (error) {
-      console.log(error)
       next(error)
     }
   }
@@ -162,6 +160,7 @@ class CustomerController {
   static async findBookmark(req, res, next) {
     try {
       const { id } = req.user
+
 
       const options = {}
 
