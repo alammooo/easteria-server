@@ -1,0 +1,351 @@
+{
+  "Users": [
+    {
+      "username": "hwycliffe0",
+      "email": "edunnett0@imageshack.us",
+      "password": "kifGKXIvPL",
+      "role": "Admin",
+      "phoneNumber": "5494057305",
+      "address": "Popovi"
+    },
+    {
+      "username": "palmey1",
+      "email": "rhiggen1@meetup.com",
+      "password": "m40NscX",
+      "role": "Admin",
+      "phoneNumber": "7765927599",
+      "address": "Kerċem"
+    },
+    {
+      "username": "mbullimore2",
+      "email": "bhassewell2@about.com",
+      "password": "t2gG5lF",
+      "role": "Staff",
+      "phoneNumber": "1985930691",
+      "address": "Galle"
+    },
+    {
+      "username": "nwoloschinski3",
+      "email": "jkenrack3@ocn.ne.jp",
+      "password": "eSE4epbsgXH",
+      "role": "Admin",
+      "phoneNumber": "6397981962",
+      "address": "Huaylillas"
+    },
+    {
+      "username": "paslam4",
+      "email": "kludovici4@walmart.com",
+      "password": "9XPdXElRb",
+      "role": "Admin",
+      "phoneNumber": "9974077941",
+      "address": "Imbituva"
+    },
+    {
+      "username": "cdymoke5",
+      "email": "cinderwick5@nature.com",
+      "password": "RaMgjrHJd",
+      "role": "Staff",
+      "phoneNumber": "7853033452",
+      "address": "Zhangyang"
+    },
+    {
+      "username": "CustomerKun",
+      "email": "cust@mail.com",
+      "password": "wuuyPhUu",
+      "role": "Customer",
+      "phoneNumber": "2736808157",
+      "address": "London, United Kingdom"
+    }
+  ],
+  "Categories": [
+    {
+      "name": "Appetizer"
+    },
+    {
+      "name": "Soup"
+    },
+    {
+      "name": "Main Course"
+    },
+    {
+      "name": "Dessert"
+    },
+    {
+      "name": "Beverages"
+    }
+  ],
+  "Foods": [
+    {
+      "name": "Milk",
+      "description": "pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam",
+      "price": 14,
+      "imgUrl": "https://cookingformysoul.com/wp-content/uploads/2022/05/triple-berry-smoothie-feat-min.jpg",
+      "authorId": 1,
+      "categoryId": 3
+    },
+    {
+      "name": "Bread",
+      "description": "suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris",
+      "price": 48,
+      "imgUrl": "https://www.kingarthurbaking.com/sites/default/files/2020-02/the-easiest-loaf-of-bread-youll-ever-bake.jpg",
+      "authorId": 3,
+      "categoryId": 3
+    },
+    {
+      "name": "Butter",
+      "description": "consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla",
+      "price": 85,
+      "imgUrl": "https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/05/Featured_Merk-Mentega-Butter-Terbaik-Lezat-Sehat-dan-Aman.jpg",
+      "authorId": 2,
+      "categoryId": 3
+    },
+    {
+      "name": "Cheese",
+      "description": "sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis",
+      "price": 85,
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/2/2018/09/Green-Toastie-46b1245.jpg?quality=90&resize=700,466",
+      "authorId": 7,
+      "categoryId": 3
+    },
+    {
+      "name": "Yogurt",
+      "description": "gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi",
+      "price": 56,
+      "imgUrl": "https://static01.nyt.com/images/2018/07/18/dining/18YOGURT1/18YOGURT1-threeByTwoMediumAt2X.jpg",
+      "authorId": 7,
+      "categoryId": 1
+    },
+    {
+      "name": "Sandwich",
+      "description": "ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem",
+      "price": 49,
+      "imgUrl": "https://assets.digination.id/crop/0x0:0x0/x/photo/2019/11/04/342116610.jpg",
+      "authorId": 5,
+      "categoryId": 3
+    },
+    {
+      "name": "Pancake",
+      "description": "et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut",
+      "price": 60,
+      "imgUrl": "https://static.onecms.io/wp-content/uploads/sites/43/2022/02/16/21014-Good-old-Fashioned-Pancakes-mfs_001.jpg",
+      "authorId": 2,
+      "categoryId": 5
+    },
+    {
+      "name": "Pie",
+      "description": "consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus",
+      "price": 79,
+      "imgUrl": "https://static.onecms.io/wp-content/uploads/sites/43/2022/02/16/21014-Good-old-Fashioned-Pancakes-mfs_001.jpg",
+      "authorId": 4,
+      "categoryId": 3
+    },
+    {
+      "name": "Honey",
+      "description": "lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+      "price": 60,
+      "imgUrl": "https://www.recipetineats.com/wp-content/uploads/2020/02/Honey-Garlic-Chicken-Breast_5-SQ.jpg",
+      "authorId": 5,
+      "categoryId": 3
+    },
+    {
+      "name": "Waffle",
+      "description": "curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at",
+      "price": 35,
+      "imgUrl": "https://awsimages.detik.net.id/community/media/visual/2021/12/22/resep-waffle-hongkong_43.jpeg?w=1200",
+      "authorId": 1,
+      "categoryId": 5
+    },
+    {
+      "name": "Donuts",
+      "description": "faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est",
+      "price": 88,
+      "imgUrl": "https://www.shugarysweets.com/wp-content/uploads/2020/01/baked-chocolate-donuts-recipe.jpg",
+      "authorId": 1,
+      "categoryId": 5
+    },
+    {
+      "name": "Salad",
+      "description": "at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci",
+      "price": 89,
+      "imgUrl": "https://www.kitchensanctuary.com/wp-content/uploads/2021/06/Simple-Green-Salad-with-Vinaigrette-Square-FS-3241.jpg",
+      "authorId": 4,
+      "categoryId": 3
+    },
+    {
+      "name": "Meatball",
+      "description": "dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis",
+      "price": 35,
+      "imgUrl": "https://images-gmi-pmc.edge-generalmills.com/a7d7f227-8d99-4ebd-b224-f5338c0f0749.jpg",
+      "authorId": 3,
+      "categoryId": 3
+    },
+    {
+      "name": "Grilled",
+      "description": "tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus",
+      "price": 74,
+      "imgUrl": "https://www.wellplated.com/wp-content/uploads/2021/05/Best-Grilled-Chicken-Breast.jpg",
+      "authorId": 2,
+      "categoryId": 4
+    },
+    {
+      "name": "Chicken",
+      "description": "in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo",
+      "price": 51,
+      "imgUrl": "https://www.spoonforkbacon.com/wp-content/uploads/2020/11/spatchcock-chicken-recipe-card.jpg",
+      "authorId": 6,
+      "categoryId": 4
+    },
+    {
+      "name": "Burger",
+      "description": "quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla",
+      "price": 18,
+      "imgUrl": "https://asset.kompas.com/crops/yqHUrUMME2QSGILGvNH-LYuTdns=/12x51:892x637/780x390/data/photo/2022/03/05/622358ed771fb.jpg",
+      "authorId": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Tuna",
+      "description": "pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas",
+      "price": 72,
+      "imgUrl": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/04/Tuna-Salad-3.jpg",
+      "authorId": 4,
+      "categoryId": 5
+    },
+    {
+      "name": "Noodles",
+      "description": "a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra",
+      "price": 76,
+      "imgUrl": "https://www.cookwithmanali.com/wp-content/uploads/2014/11/Hakka-Noodles-1-500x500.jpg",
+      "authorId": 5,
+      "categoryId": 5
+    },
+    {
+      "name": "Egg",
+      "description": "vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
+      "price": 75,
+      "imgUrl": "https://images-gmi-pmc.edge-generalmills.com/8dfd9c8e-1580-4508-a223-e5c15dd46d8e.jpg",
+      "authorId": 6,
+      "categoryId": 2
+    },
+    {
+      "name": "Bacon",
+      "description": "vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt",
+      "price": 58,
+      "imgUrl": "http://dummyimage.com/199x100.png/cc0000/ffffff",
+      "authorId": 4,
+      "categoryId": 2
+    },
+    {
+      "name": "Pizza",
+      "description": "quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus",
+      "price": 71,
+      "imgUrl": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/11/pizza-recipe-2-500x375.jpg",
+      "authorId": 5,
+      "categoryId": 4
+    },
+    {
+      "name": "French",
+      "description": "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet",
+      "price": 27,
+      "imgUrl": "https://insidr.co/wp-content/uploads/2018/04/Boeuf-Bourguignon-1170x780-2-1170x780.jpg",
+      "authorId": 3,
+      "categoryId": 4
+    },
+    {
+      "name": "Fries",
+      "description": "justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate",
+      "price": 26,
+      "imgUrl": "https://www.queensleeappetit.com/wp-content/uploads/2018/01/Loaded-Cheese-Fries-2.jpg",
+      "authorId": 6,
+      "categoryId": 2
+    },
+    {
+      "name": "Biryani",
+      "description": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum",
+      "price": 37,
+      "imgUrl": "https://glebekitchen.com/wp-content/uploads/2019/12/chickenbiryanibowltop.jpg",
+      "authorId": 6,
+      "categoryId": 1
+    },
+    {
+      "name": "Pasta",
+      "description": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean",
+      "price": 43,
+      "imgUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-bucatinipasta-045-ls-1607552701.jpg",
+      "authorId": 7,
+      "categoryId": 3
+    },
+    {
+      "name": "Smoked",
+      "description": "elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at",
+      "price": 99,
+      "imgUrl": "https://meateatingmilitaryman.com/wp-content/uploads/2018/05/smoked-duck.jpg",
+      "authorId": 1,
+      "categoryId": 1
+    },
+    {
+      "name": "Salmon",
+      "description": "ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean",
+      "price": 38,
+      "imgUrl": "https://midwestfoodieblog.com/wp-content/uploads/2022/07/FINAL-smoked-salmon-process-1-2.jpg",
+      "authorId": 2,
+      "categoryId": 5
+    },
+    {
+      "name": "Mayonnaise",
+      "description": "volutpat dui maecenas tristique est et tempus semper est quam pharetra magna",
+      "price": 93,
+      "imgUrl": "https://i.ytimg.com/vi/z33wsMs_gKA/maxresdefault.jpg",
+      "authorId": 5,
+      "categoryId": 5
+    },
+    {
+      "name": "Taco",
+      "description": "curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis",
+      "price": 33,
+      "imgUrl": "https://www.zauberdergewuerze.de/magazin/wp-content/uploads/2022/03/istock-613781640-scaled.jpg",
+      "authorId": 1,
+      "categoryId": 1
+    },
+    {
+      "name": "Hotdog",
+      "description": "ut dolor morbi vel lectus in quam fringilla rhoncus mauris",
+      "price": 52,
+      "imgUrl": "https://reinert-herzenssache.com/fileadmin/_processed_/4/7/csm_001_Header_Rezept_Hot_Dogs_7b0218b8c7.jpg",
+      "authorId": 4,
+      "categoryId": 1
+    },
+    {
+      "name": "Dosa",
+      "description": "libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum",
+      "price": 27,
+      "imgUrl": "https://feeds.abplive.com/onecms/images/uploaded-images/2021/07/22/8896ba1f366ccdb817f67bc4303eea5c_original.jpeg",
+      "authorId": 4,
+      "categoryId": 5
+    },
+    {
+      "name": "Chocolate",
+      "description": "duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat",
+      "price": 44,
+      "imgUrl": "https://pcprd.azureedge.net/content/easy-chocolate-recipes-for-kids-2742779144386.jpg",
+      "authorId": 2,
+      "categoryId": 4
+    },
+    {
+      "name": "Ice Coffee",
+      "description": "et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante",
+      "price": 20,
+      "imgUrl": "https://www.simplejoy.com/wp-content/uploads/2012/06/iced_coffee_cocktail.jpg",
+      "authorId": 3,
+      "categoryId": 1
+    },
+    {
+      "name": "Cream Soup",
+      "description": "vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit",
+      "price": 42,
+      "imgUrl": "https://myfoodstory.com/wp-content/uploads/2017/12/Homemade-Creamy-Vegetable-Soup-2-1-500x375.jpg",
+      "authorId": 3,
+      "categoryId": 1
+    }
+  ]
+}

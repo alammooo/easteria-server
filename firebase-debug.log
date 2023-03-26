@@ -1,0 +1,21 @@
+[debug] [2022-11-18T16:28:05.487Z] ----------------------------------------------------------------------
+[debug] [2022-11-18T16:28:05.489Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abdul\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-11-18T16:28:05.490Z] CLI Version:   11.16.1
+[debug] [2022-11-18T16:28:05.490Z] Platform:      win32
+[debug] [2022-11-18T16:28:05.490Z] Node Version:  v18.12.1
+[debug] [2022-11-18T16:28:05.491Z] Time:          Fri Nov 18 2022 23:28:05 GMT+0700 (Indochina-Zeit)
+[debug] [2022-11-18T16:28:05.491Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-18T16:28:05.505Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-18T16:28:05.506Z] > authorizing via signed-in user (abdullah.alamm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\2022\Hacktiv8\Phase-2\Week-1\p2-cms-integration-server
+

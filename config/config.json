@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "restaurantDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "restaurantDB",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "u1655822_alammoo",
+    "password": "!Aa432486954",
+    "database": "u1655822_employee_app",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
