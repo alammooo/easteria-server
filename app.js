@@ -9,7 +9,12 @@ const port = process.env.PORT || 3000
 const router = require("./routes/router")
 const errorHandler = require("./middlewares/error-handler")
 
-app.use(cors())
+app.use(
+  cors({
+    credentials: true,
+    origin: process.env.FE_ORIGIN?.split(','),
+  }),
+);
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
